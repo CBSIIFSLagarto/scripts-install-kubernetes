@@ -92,7 +92,7 @@ echo \# BLUETOOH $(systemctl status bluetooth.service | grep "Status")
 echo Keyboard configuration:
 cat /etc/default/keyboard
 echo \# TIME ZONE: $(timedatectl)
-echo \# Current date: ($date)
+echo \# Current date: $(date)
 echo ***************************
 
 
